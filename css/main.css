@@ -98,6 +98,10 @@ body {
   color: #FFFFFF;
 }
 
+.hero {
+  background-color: rgb(119, 87, 87);
+}
+
 .hero__container {
   display: flex;
 }
@@ -136,7 +140,7 @@ body {
 .hero__content {
   padding: 272px 100px 208px 100px;
   flex-grow: 1;
-  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/img.jpg);
+  background-image: url(../images/hero/hero-bcg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
