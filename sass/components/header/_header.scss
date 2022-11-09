@@ -1,0 +1,59 @@
+.header {
+    background-color: gray;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo__header {
+    display: block;
+    margin-right: 130px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+
+    @extend %list;
+}
+
+.menu__link {
+    padding: 52px 0;
+
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
+    color: $primary-white-color;
+}
+
+.menu__link--current {
+    color: #FF6C00;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.contacts__tel {
+    
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+}
