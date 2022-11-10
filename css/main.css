@@ -1,4 +1,4 @@
-.sidebar__list, .menu {
+.prices__list, .images-about, .sidebar__list, .menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .button {
   margin: 0;
   padding: 12px 20px;
@@ -35,6 +39,10 @@ a {
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 .container {
@@ -183,4 +191,159 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9DA4BD;
+}
+
+.about {
+  padding-bottom: 0;
+}
+
+.about__container {
+  display: flex;
+  gap: 30px;
+}
+
+.images-about {
+  display: flex;
+  gap: 30px;
+}
+
+.about-content {
+  max-width: 470px;
+}
+
+.about-content__top-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-content__top-text::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
+.about-content__title {
+  margin-bottom: 56px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.about-content__bottom-text {
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-content__secondary-text {
+  margin-bottom: 71px;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.button--about {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.prices {
+  margin: 0 auto;
+  max-width: 1600px;
+  background-image: url(../images/prices/prices-bcg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #111319;
+}
+
+.prices__text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices__text::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: rgba(157, 164, 189, 0.6);
+}
+
+.prices__title {
+  margin-bottom: 44px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.prices__wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.prices__list {
+  margin-bottom: 44px;
+  padding: 30px 20px;
+  min-width: 570px;
+}
+
+.prices__item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.prices__item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.prices__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.prices__item::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(157, 164, 189, 0.12);
+}
+
+.prices__item-text:last-child {
+  order: 1;
+}
+
+.button--center {
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
