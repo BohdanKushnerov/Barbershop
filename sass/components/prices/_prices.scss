@@ -60,6 +60,10 @@
     padding: 30px 20px;
     min-width: 570px;
     @extend %list;
+    
+    background: linear-gradient(180deg,
+    #171A24 0%,
+    rgba(23, 26, 36, 0.2) 100%);
 }
 
 .prices__item {
